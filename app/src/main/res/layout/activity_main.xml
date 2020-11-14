@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/bungee"
+        android:transitionName="title"
+        android:textColor="#000000"
+        android:text="Let's make some changes"
+        android:textSize="40sp"/>
+    <TextView
+        android:id="@+id/sig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:transitionName="name"
+        android:text="Sign in to edit details"
+        android:textSize="18sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="208dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:background="#D1D1CD"
+        android:transitionName="usrn"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="Username"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="209dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:background="#D1D1CD"
+        android:transitionName="psd"
+        android:layout_gravity="center"
+        android:ems="10"
+        app:passwordToggleEnabled="true"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="218dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="#000000"
+            android:transitionName="bttn"
+            android:fontFamily="@font/aldrich"
+            android:text="EDIT"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+</LinearLayout>

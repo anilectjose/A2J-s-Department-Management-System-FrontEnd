@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aldrich</item>
+        <item>@font/audiowide</item>
+        <item>@font/autour_one</item>
+        <item>@font/bangers</item>
+        <item>@font/bungee</item>
+        <item>@font/cairo_semibold</item>
+        <item>@font/droid_sans_mono</item>
+        <item>@font/lovers_quarrel</item>
+        <item>@font/luckiest_guy</item>
+        <item>@font/margarine</item>
+        <item>@font/muli_black</item>
+        <item>@font/muli_extralight</item>
+        <item>@font/shojumaru</item>
+    </array>
+</resources>

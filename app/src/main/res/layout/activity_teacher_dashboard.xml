@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherDashboard" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <com.synnapps.carouselview.CarouselView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:pageColor="#00000000"
+            app:fillColor="#ffffff"
+            app:slideInterval="4000"
+            app:radius="3dp"
+            app:strokeColor="#FFEB3B"
+            app:strokeWidth="1dp"
+            android:id="@+id/carousel"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/detail"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/stu_det" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="20dp"
+                android:fontFamily="times"
+                android:text="Student Detail"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/notification"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/noti" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="20dp"
+                android:fontFamily="times"
+                android:text="Notification"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/leave"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/leave" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="20dp"
+                android:fontFamily="times"
+                android:text="Request Leave"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/table"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/timetable" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="20dp"
+                android:fontFamily="times"
+                android:text="Time Table"
+                android:textAlignment="center" />
+        </LinearLayout></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/assig"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/assi_veri" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="20dp"
+                android:fontFamily="times"
+                android:text="Assignments"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/atten"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/atten" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="20dp"
+                android:fontFamily="times"
+                android:text="Attendance"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/lea_app"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/l_report" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="20dp"
+                android:fontFamily="times"
+                android:text="Student's Leave"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+
+            <ImageView
+                android:id="@+id/edit_noti"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/noti_edit" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="20dp"
+                android:fontFamily="times"
+                android:text="Edit Notification"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/edit_mark"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/mark_add" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="20dp"
+                android:fontFamily="times"
+                android:text="Mark List"
+                android:textAlignment="center" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/navig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="navigatepage"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Logout"
+            android:id="@+id/logout"/>
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Login page new"/>
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About"/>
+    </LinearLayout>
+</ScrollView>

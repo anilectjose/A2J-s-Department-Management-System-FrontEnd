@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".otp_verification">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli_black"
+        android:text="CODE"
+        android:layout_gravity="center"
+        android:textColor="@color/colorblack"
+        android:textSize="100sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli_black"
+        android:text="VERIFICATION"
+        android:layout_gravity="center"
+        android:textColor="@color/colorblack"
+        android:textSize="40sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP send to your mail_id"
+        android:layout_gravity="center"
+        android:textColor="@color/colorblack"
+        android:textSize="20dp"/>
+    <com.chaos.view.PinView
+        android:id="@+id/pincode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:itemCount="4"
+        android:layout_gravity="center"
+        app:itemHeight="50dp"
+        app:itemWidth="50dp"
+        android:inputType="number"
+        android:cursorVisible="true"
+        app:cursorColor="@color/colorblack"
+        app:hideLineWhenFilled="true"
+        app:itemRadius="5dp"
+        android:layout_marginTop="30dp"
+        app:lineColor="@color/colorAccent"
+        style="@style/PinWidget.PinView"/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:text="VERIFY CODE"
+    android:layout_gravity="center"/>
+</LinearLayout>

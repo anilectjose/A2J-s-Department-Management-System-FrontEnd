@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/detail_id"
+        android:layout_width="wrap_content"
+        android:fontFamily="times"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="Name"
+        android:textSize="40sp" />
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+    <TextView
+            android:id="@+id/reg"
+            android:layout_marginLeft="20dp"
+            android:layout_width="52dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="times"
+            android:layout_height="wrap_content"
+            android:text="Reg No"
+            android:textSize="15sp"
+        />
+            <TextView
+                android:id="@+id/stu_reg"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:text="Reg No"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/mob"
+        android:layout_marginLeft="20dp"
+        android:layout_width="52dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="times"
+        android:layout_height="wrap_content"
+        android:text="Mobile"
+        android:textSize="15sp" />
+            <TextView
+                android:id="@+id/stu_mob"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="Mobile"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/mail"
+        android:layout_marginLeft="20dp"
+        android:layout_width="52dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="times"
+        android:layout_height="wrap_content"
+        android:text="Mail"
+        android:textSize="15sp" />
+            <TextView
+                android:id="@+id/stu_mail"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="Mail"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/gen"
+        android:layout_marginLeft="20dp"
+        android:layout_width="52dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="times"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="15sp" />
+            <TextView
+                android:id="@+id/stu_gen"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/year"
+        android:layout_marginLeft="20dp"
+        android:layout_width="52dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="times"
+        android:layout_height="wrap_content"
+        android:text="Year"
+        android:textSize="15sp" />
+            <TextView
+                android:id="@+id/stu_year"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="Year"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

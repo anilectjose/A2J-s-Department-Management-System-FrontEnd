@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    tools:context=".leaveform">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="right"
+        android:fontFamily="@font/cairo_semibold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Requests"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_width="347dp"
+        android:layout_height="40dp"
+        android:hint="Name"
+        android:textColor="#000"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/year"
+        android:digits="123"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="347dp"
+        android:maxLength="1"
+        android:layout_height="40dp"
+        android:inputType="phone"
+        android:hint="Year"
+        android:textColor="#000"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/regno"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="347dp"
+        android:layout_height="40dp"
+        android:hint="Reg no"
+        android:textColor="#000"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/date"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="347dp"
+        android:digits="1234567890-/\"
+        android:layout_height="40dp"
+        android:hint="Date"
+        android:textColor="#000"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/days"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="347dp"
+        android:layout_height="40dp"
+        android:digits="1234567890"
+        android:maxLength="2"
+        android:hint="No. of Days"
+        android:textColor="#000"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/reason"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="347dp"
+        android:layout_height="100dp"
+        android:hint="Reason"
+        android:textColor="#000"
+        android:textSize="17dp"/>
+
+    <Button
+        android:id="@+id/leave_btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="125dp" />
+
+</LinearLayout>
+</ScrollView>

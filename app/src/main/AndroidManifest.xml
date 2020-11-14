@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aja">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/admin"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".tea_leave_result"></activity>
+        <activity android:name=".teacher_leaveform"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".stu_leave_result" />
+        <activity android:name=".forgot_password" />
+        <activity android:name=".otp_verification" />
+        <activity android:name=".Edit_Profile"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".tea_t_markadd" />
+        <activity android:name=".tea_s_markadd" />
+        <activity android:name=".tea_t_mark" />
+        <activity android:name=".tea_s_mark" />
+        <activity android:name=".tea_f_markadd" />
+        <activity android:name=".tea_f_mark" />
+        <activity android:name=".navigate" />
+        <activity android:name=".stu_t_markname" />
+        <activity android:name=".stu_s_markname" />
+        <activity android:name=".stu_f_markname" />
+        <activity android:name=".OnBoarding" />
+        <activity android:name=".stu_t_attendance" />
+        <activity android:name=".stu_s_attendance" />
+        <activity android:name=".stu_f_attendance" />
+        <activity android:name=".user_profile" />
+        <activity
+            android:name=".login"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".stu_t_attname" />
+        <activity android:name=".stu_s_attname" />
+        <activity android:name=".stu_f_attname" />
+        <activity android:name=".tea_third_attendance" />
+        <activity android:name=".tea_second_attendance" />
+        <activity android:name=".tea_first_attentance" />
+        <activity android:name=".stu_name_list" />
+        <activity android:name=".third_detail" />
+        <activity android:name=".second_detail" />
+        <activity android:name=".first_detail" />
+        <activity android:name=".about" />
+        <activity android:name=".tea_marklist" />
+        <activity android:name=".tea_editnoti" />
+        <activity android:name=".tea_leaveofstud" />
+        <activity android:name=".tea_attendance" />
+        <activity android:name=".tea_assignment" />
+        <activity android:name=".tea_notification" />
+        <activity
+            android:name=".stu_detail"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".groups" />
+        <activity android:name=".intmark" />
+        <activity android:name=".attendance" />
+        <activity android:name=".timetable"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".TeacherDashboard"
+            android:screenOrientation="portrait" />
+        <activity android:name=".notific" />
+        <activity android:name=".Assignment" />
+        <activity
+            android:name=".regi"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".leaveform"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".StudentDashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".splash_screen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

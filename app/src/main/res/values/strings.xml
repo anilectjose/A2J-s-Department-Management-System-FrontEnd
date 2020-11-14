@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">A<sub>2</sub>J</string>
+    <string name="Base_URL">http://192.168.43.77/aja_admin/api/</string>
+    <string-array name="year_array">
+        <item>None</item>
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Teacher</item>
+    </string-array>
+    <string-array name="stu_array">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+    </string-array>
+
+    <string name="first_slide_title">2 in 1</string>
+    <string name="second_slide_title">More safe</string>
+    <string name="third_slide_title">Less Time</string>
+    <string name="fourth_slide_title">Here we go...</string>
+
+    <string name="first_slide_desc">This can be used for both Teachers and Students which is havig different functions for them.
+    In registration page teachers have to enter a specific code provided by department to access as a teacher.</string>
+    <string name="second_slide_desc">Hardcopy submissions may be vulnerable to missing.But while doing it in online
+        there is less chance of missing.Here increases more security and less wastage.</string>
+    <string name="third_slide_desc">Provide better use of interaction with department with limited time.
+        So each one will be able to get the goodworth easily.this indicates its efficiency.</string>
+    <string name="fourth_slide_desc">Be helpful :)</string>
+
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Start Exploring..</string>
+
+    <string name="linking">
+        <a href="http://wa.me/+919656291130">Search Web</a>
+    </string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+</resources>

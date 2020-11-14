@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/group_list_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/group_icon_layout"
+        android:layout_width="70dp"
+        android:layout_height="68dp"
+        android:padding="10dp"
+         />
+
+    <LinearLayout
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/group_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:textSize="25sp"
+            android:fontFamily="times"
+            android:padding="10dp"
+            android:text="group name"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
